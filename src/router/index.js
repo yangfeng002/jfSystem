@@ -12,6 +12,7 @@ import UserProfile from '@/components/settings/profile'
 
 // 懒加载方式，当路由被访问的时候才加载对应组件
 const Login = resolve => require(['@/components/Login'], resolve)
+const Register = resolve => require(['@/components/Register'], resolve)
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ let router = new Router({
       path: '/login',
       name: '登录',
       component: Login
+    },
+    {
+      path:'/register',
+      name:'注册',
+      component:Register
     },
     {
       path: '/',
