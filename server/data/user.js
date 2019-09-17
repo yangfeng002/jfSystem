@@ -1,6 +1,6 @@
 /**
  * Created by jerry on 2017/11/13.
- * 初始化用户(manageboard)模拟数据
+ * 初始化用户(user)模拟数据
  *
  * Created by jerry on 2017/11/13.
  */

@@ -7,11 +7,11 @@
 ### 说明
 
 　这是一个用vuejs2.0和element-ui 2.x搭建的后台管理界面。
+  演示地址：
     
 ### 项目结构
-```bash
-
-├─  build  #webpack编译相关文件目录，一般不用动 
+```
+├── build  #webpack编译相关文件目录，一般不用动 
 ├── config  #配置目录
 │   ├────dev.env.js  #开发环境变量
 │   ├────index.js    #主配置文件
@@ -43,13 +43,14 @@
 ## 项目编译和运行
 
 ``` bash
-第一步： 先安装node v8.2.1环境
+第一步： 先安装node v8.2.1环境，可以用nvm安装，支持多版本切换
+可参看链接：https://fengmk2.com/blog/2014/03/node-env-and-faster-npm.html
 
 第二步：下载项目
 可以直接在git上下载项目源码。
 或者通过git命令下载
 #git命令下载
-git clone https://github.com/yangfeng002/jfSystem.git
+git clone https://github.com/jerry9022/LitAdmin
 
 假定项目已经下载下来了。
 
@@ -84,6 +85,10 @@ npm run build
 ```
 
 
-
+### 更新日志
+> 2019-09-06
+ >> 1.基本框架搭建。
+ 
+  
 
 
