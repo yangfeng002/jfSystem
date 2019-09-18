@@ -11,33 +11,33 @@
         <el-row>
           <el-col :span="8">
             <el-card :body-style="{ padding: '0px' }">
-              <img src="../assets/images/forest.png" class="image">
+
               <div style="padding: 14px;">
                 <span>家庭游戏</span>
                 <div class="bottom clearfix">
-                  <time class="time">{{ currentDate }}</time>
+                  <!--<time class="time">{{ currentDate }}</time>-->
                 </div>
               </div>
             </el-card>
           </el-col>
           <el-col :span="8">
             <el-card :body-style="{ padding: '0px' }">
-              <img src="../assets/images/sunrise.png" class="image">
+
               <div style="padding: 14px;">
                 <span>个人游戏</span>
                 <div class="bottom clearfix">
-                  <time class="time">{{ currentDate }}</time>
+                 <!-- <time class="time">{{ currentDate }}</time>-->
                 </div>
               </div>
             </el-card>
           </el-col>
           <el-col :span="8">
             <el-card :body-style="{ padding: '0px' }">
-              <img src="../assets/images/sunshine.png" class="image">
+
               <div style="padding: 14px;">
                 <span>政企游戏</span>
                 <div class="bottom clearfix">
-                  <time class="time">{{ currentDate }}</time>
+                  <!--<time class="time">{{ currentDate }}</time>-->
                 </div>
               </div>
             </el-card>
